@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <style>
+        #work-process {
+          padding: 78px 0 150px 0;
+          background-color: #fbfbfb;
+        }
+        
+        h2 {
+          font-size: 14px;
+          font-weight: bold;
+          line-height: normal;
+          color: #424242;
+        }
+        
+        .container {
+          border-radius: 8px;
+          background-color: #ffffff;
+          overflow: hidden;
+        }
+        
+        .col-lg-3 {
+          padding-left: 54px;
+          background-color: #ffffff;
+        }
+        
+        .styledContainer .col-lg-3:not(:last-child):after {
+          content: " ";
+          display: block;
+          width: 0;
+          height: 0;
+          border-top: 100px solid transparent;
+          border-bottom: 100px solid transparent;
+          border-left: 40px solid #ffffff;
+          position: absolute;
+          top: 50%;
+          margin-top: -100px;
+          left: 100%;
+          z-index: 2;
+        }
+        
+        .styledContainer .col-lg-3:not(:last-child):before {
+          content: " ";
+          display: block;
+          width: 0;
+          height: 0;
+          border-top: 100px solid transparent;
+          border-bottom: 100px solid transparent;
+          border-left: 40px solid #e9e9e9;
+          position: absolute;
+          top: 50%;
+          margin-top: -100px;
+          margin-left: 1px;
+          left: 100%;
+          z-index: 1;
+        }
+        
+        .styledContainer .col-lg-3 {
+          padding: 0;
+        }
+        
+        .styledContainer .col-lg-3 p,
+        .styledContainer .col-lg-6 p {
+          padding-left: 54px;
+        }
+        
+        #work-process>.container>.styledContainer {
+          border-top: 20px solid #fbfbfb;
+          padding-top: 30px;
+          padding-bottom: 40px;
+        }
+        
+        .styledContainer .headingBox {
+          position: absolute;
+          top: -50px;
+        }
+        
+        .separateBorder {
+          border-right: 1px solid #fbfbfb;
+        }
+        
+        @media screen AND (max-width:991px) {
+          .styledContainer .headingBox {
+            top: auto;
+          }
+          .styledContainer .headingContainer {
+            background-color: #fbfbfb;
+          }
+          .styledContainer .headingContainer {
+            height: 20px;
+          }
+          .separateBorder {
+            border-right: none;
+          }
+        }
+        
+        @media screen AND (min-width:1200px) {
+          #work-process>.container>.styledContainer {
+            border-top: 20px solid #fbfbfb;
+            padding-top: 42px;
+          }
+          .styledContainer .headingBox {
+            position: absolute;
+            top: -65px;
+          }
+        }
+        
+        .bottomRow {
+          padding: 10px 0;
+        }
+      </style>
+
+
+
+</head>
+<body>
+    
+
+
+
+
+<section id="work-process">
+  <div class="container ">
+    <div class="row styledContainer">
+      <div class="col-lg-3">
+        <div class='headingContainer'>
+          <div class='headingBox'>
+            <h2>1. KONSULTACIJA</h2>
+          </div>
+        </div>
+        <p>Aptarsime situaciją ir įvertinsime preliminarią kainą</p>
+      </div>
+      <div class="col-lg-3">
+        <div class='headingContainer'>
+          <div class='headingBox'>
+            <h2>2. PROJEKTAVIMAS</h2>
+          </div>
+        </div>
+        <p>2.1. Paruošiami brėžiniai ir kelios baldų vizualizacijos. 2.2. Užsakovo vizualizacijų pastabų ar pageidavimų korekcijos</p>
+      </div>
+      <div class="col-lg-3">
+        <div class='headingContainer'>
+          <div class='headingBox'>
+            <h2>3. GAMYBA</h2>
+          </div>
+        </div>
+        <p>Pagaminsime baldūs</p>
+      </div>
+      <div class="col-lg-3">
+        <div class='headingContainer'>
+          <div class='headingBox'>
+            <h2>4. PRISTATYMAS / MONTAVIMAS</h2>
+          </div>
+        </div>
+        <p>Pristatysime ir sumontuosime nestandartinius baldūs</p>
+      </div>
+    </div>
+    <div class="row bottomRow">
+      <div class="col-lg-3 separateBorder">
+        <p>Susisiekite</p>
+      </div>
+      <div class="col-lg-6">
+        <p>Esant poreikiuj sukursime užsakymą pagal užsakovo..</p>
+      </div>
+      <div class="col-lg-3">
+        <p>Daugiau informacijos</p>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
+
